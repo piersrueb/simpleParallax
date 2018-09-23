@@ -26,5 +26,6 @@ simpleParallax(1,8);
     background-position: center center;
     background-size: cover;
     height: 400px;
+    width: 100%;
 }
 ```
