@@ -1,6 +1,6 @@
 ## Simple Parallax
 
-Simple fixed background parallax effect in vanilla js.
+Simple fixed background parallax effect in vanilla js. See [demo](https://codepen.io/Rueb/pen/rZbZgj) on Codepen.
 
 ####  JS
 
