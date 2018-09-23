@@ -23,7 +23,6 @@ simpleParallax(1,8);
     background-image: url('../img/myimage.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center;
     background-size: cover;
     height: 400px;
     width: 100%;
