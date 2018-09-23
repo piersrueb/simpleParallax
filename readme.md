@@ -2,6 +2,12 @@
 
 Simple fixed background parallax effect in vanilla js.
 
+####  JS
+
+Initialise the plugin.
+```js
+simpleParallax(1,8);
+```
 #### HTML
 ```html
 <section id="parallax-1"></section>
