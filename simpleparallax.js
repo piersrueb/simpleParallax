@@ -1,4 +1,4 @@
-//  parallax
+//  simple parallax
 
 function simpleParallax(id,modifier){
 	var paraId = document.getElementById('parallax-' + id);
@@ -8,5 +8,3 @@ function simpleParallax(id,modifier){
 		paraId.style.backgroundPosition = 'center ' + y + 'px';
 	};
 }
-
-simpleParallax(1,8);
