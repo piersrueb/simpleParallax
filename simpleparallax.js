@@ -2,7 +2,7 @@
 //  Author Piers Rueb
 //  https://github.com/piersrueb/simpleparallax
 
-const simpleParallax = (id,modifier) =>{
+const simpleParallax = (id, modifier) =>{
   	let paraId = document.querySelector(id);
 	window.addEventListener('scroll', function(e) {
 		let x = paraId.getBoundingClientRect().top / modifier;
