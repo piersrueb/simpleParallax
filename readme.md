@@ -9,7 +9,7 @@ See [demo](https://codepen.io/Rueb/pen/rZbZgj) on Codepen.
 Initialise the plugin. The first argument identifies the parrallax id. The second controls the parallax distance.
 
 ```js
-simpleParallax(1,8);
+simpleParallax('#parallax-1',8);
 ```
 
 #### HTML
