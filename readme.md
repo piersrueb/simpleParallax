@@ -6,7 +6,9 @@ See [demo](https://codepen.io/Rueb/pen/rZbZgj) on Codepen.
 
 ####  JS
 
-Initialise the plugin. The first argument identifies the parrallax id. The second controls the parallax distance.
+Initialise the plugin. The first argument identifies the parrallax id.
+
+The second is the modifier it controls the parallax distance. It is defined as a fraction of the total page height and is used to animate the background image position on scroll. 
 
 ```js
 simpleParallax('#parallax-1',8);
