@@ -8,8 +8,8 @@ const simpleParallax = (id, modifier) => {
     const sp = () => {
         let x = paraId.getBoundingClientRect().top / modifier;
 		let y = Math.round(x * 100) / 100;
-		paraId.style.backgroundPosition = 'center ' + y + 'px';
+        paraId.style.backgroundPosition = 'center ' + y + 'px';
+        requestAnimationFrame(sp);
     }
-    sp();
-	window.addEventListener('scroll', function(e) { sp(); });
+    requestAnimationFrame(sp);
 }
